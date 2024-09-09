@@ -825,6 +825,7 @@ html, body{
     }
     #marque h1{
         font-size: 6vh;
+        letter-spacing: 0.5vw;
     }
     
     #last-page{
@@ -839,9 +840,16 @@ html, body{
     #blog0{
         height: fit-content;
         position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-left: 35%;
     }
     #blog0 h1{
-        font-size: 4vw;
+        font-size: 10vw;
+        letter-spacing: 1vw;
+        color: #FC404A;
+        font-weight: 500;
+        margin-top: -3vh;
     }
     #blog1{
         width: 100%;
@@ -854,6 +862,8 @@ html, body{
         text-align: center;
         letter-spacing: 0.1vw;
         margin-bottom: 2vh;
+        margin-top: 4vh;
+
     }
     #blog1 p{
         font-size: 3.5vw;
